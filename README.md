@@ -1,4 +1,4 @@
-# create-zoom-meeting-in-node.js
+# create-zoom-meeting-in-node.js (Server-to-Server OAuth)
 
 # Server-to-Server OAuth
 
@@ -9,7 +9,6 @@ This project provides an API for scheduling Zoom meetings. It includes functiona
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
 - [License](#license)
@@ -23,11 +22,15 @@ This project provides an API for scheduling Zoom meetings. It includes functiona
 - Node.js
 - MongoDB(incase you want to save the meeting details)
 
+## required packages
+axios (npm i axios) 
+qs  (npm i qs)
+
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/zoom-meeting-scheduler.git
-   cd zoom-meeting-scheduler
+   git clone [https://github.com/your-username/zoom-meeting-scheduler.git](https://github.com/ummartoor/create-zoom-meeting-in-node.js.git)
+   cd create-zoom-meeting-in-node.js
    ```
 ##ZOOM 
 Go to zoom marketplace and 
@@ -77,6 +80,8 @@ Active the app
 ```
 
 **Response**:
+## You will get a join meeting link just click on that to join
+or you can use that link on front end to make a call for the user
 - `200 OK` on success:
   ```json
   {
@@ -92,6 +97,7 @@ Active the app
       // Other meeting details
     }
   }
+  
   ```
 - `400 Bad Request` if there's an error in creating the meeting:
   ```json

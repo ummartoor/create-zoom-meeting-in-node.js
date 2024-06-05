@@ -36,12 +36,9 @@ qs  (npm i qs)
 Go to zoom marketplace and 
 
 Copy the keys and create a folder name "config" and in that create a file config.env and past your keys there with the name provided below.
-![image](https://github.com/ummartoor/create-zoom-meeting-in-node.js/assets/35453489/4d0203c6-2b2f-472f-bb79-7c2774d96d59)
-
 ![image](https://github.com/ummartoor/create-zoom-meeting-in-node.js/assets/35453489/c816f9ed-91b5-49a7-bd35-d19413c70406)
-Name of your application
 ![image](https://github.com/ummartoor/create-zoom-meeting-in-node.js/assets/35453489/4546430a-01dd-4ce2-b693-c8cd22affae6)
- Enter the required details 
+![image](https://github.com/ummartoor/create-zoom-meeting-in-node.js/assets/35453489/4d0203c6-2b2f-472f-bb79-7c2774d96d59)
 ![image](https://github.com/ummartoor/create-zoom-meeting-in-node.js/assets/35453489/82875187-6796-4920-bfd0-568c7c6dd43f)
 Select scope of your need
 ![image](https://github.com/ummartoor/create-zoom-meeting-in-node.js/assets/35453489/bfbff3e9-7c2e-43fc-8871-9757dbcdfc4e)

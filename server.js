@@ -2,8 +2,6 @@ const express = require("express");
 const http = require("http");
 const cors = require("cors");
 const path = require("path");
-const fs = require("fs");
-const axios = require("axios");
 
 const dotenv = require("dotenv");
 const createError = require("http-errors");

@@ -35,7 +35,7 @@ qs  (npm i qs)
 ##ZOOM 
 Go to zoom marketplace and 
 
-Copy the keys and save them in .env file of your project
+Copy the keys and create a folder name "config" and in that create a file config.env and past your keys there with the name provided below.
 ![image](https://github.com/ummartoor/create-zoom-meeting-in-node.js/assets/35453489/4d0203c6-2b2f-472f-bb79-7c2774d96d59)
 
 ![image](https://github.com/ummartoor/create-zoom-meeting-in-node.js/assets/35453489/c816f9ed-91b5-49a7-bd35-d19413c70406)

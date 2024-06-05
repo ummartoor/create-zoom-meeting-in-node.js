@@ -1,6 +1,6 @@
 # create-zoom-meeting-in-node.js
 
-# Zoom Meeting Scheduler API
+# Server-to-Server OAuth
 
 This project provides an API for scheduling Zoom meetings. It includes functionality for generating and managing Zoom OAuth tokens and creating meetings using the Zoom API.
 

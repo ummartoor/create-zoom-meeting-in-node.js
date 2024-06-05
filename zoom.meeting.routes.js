@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const { createZoomMeeting } = require("../controllers/zoom.meeting.controller");
+const { createZoomMeeting } = require("./zoom-meeting-controller.js");
 
 
 router.post("/create-meeting",  createZoomMeeting);
